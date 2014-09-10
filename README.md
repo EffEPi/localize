@@ -3,11 +3,11 @@ localize
 
 JS class for a simple localization, great for PHONEGAP apps
 
-This is a very simple class that can be used to recognized the language supported by the user and automatically change all the elements on the page.
+This is a very simple class that can be used to automatically change all the elements on a page depending on the language.
 
 It requires jQuery (or any jQuery like library) to select the elements with class `lang`.
 
-To use it, you need to add `lang` to the element that you want to localize, then add the "variable" name in the dataset using `data-lang` and if you want the text to be placed in a different place than inside the element (I.E.: as a placeholder text) use the `data-lang-to`
+To use it, you need to add `lang` to the element that you want to localize, then add the "variable" name in the dataset using `data-lang` and if you want the text to be placed in a different place than inside the element (I.E.: as a placeholder text) use the `data-lang-to` dataset
 	
 Usage:
 
