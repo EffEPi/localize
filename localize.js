@@ -57,10 +57,10 @@ var localize={
 	}
 };
 //localize.start(lang);
-try{
-	var userLang = navigator.language||navigator.userLanguage;
-	var language=userLang.split("-");
-	localize.start(lang);
-}catch(err){
-	localize.start('en');
-}
+//try{
+//	var userLang = navigator.language||navigator.userLanguage;
+//	var language=userLang.split("-");
+//	localize.start(lang);
+//}catch(err){
+//	localize.start('en');
+//}
