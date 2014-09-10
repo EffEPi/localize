@@ -1,12 +1,11 @@
 var localize={
-	lang: '',
 	locals: {
 		'en': {
 			click_activation: 'click here to re-send the activation code',
 			email: "Email",
 			loading: " Loading...",	//space at the beginning
 			loading_contacts: " Loading Contacts...",	//space at the beginning
-			ratings_body: 'If you enjoy using gNoclu, whould you mind taking a moment to rate it? It won\'t take more than a minute. Thanks for your support!',
+			ratings_body: 'If you enjoy using gNext, whould you mind taking a moment to rate it? It won\'t take more than a minute. Thanks for your support!',
 			ratings_button_rate:'Rate gNext',
 			settings_language: "Language",
 			"": ""
@@ -21,6 +20,8 @@ var localize={
 			"": ""
 		}
 	},
+	/* DO NOT CHANGE UNDER THIS */
+	lang: '',
 	start: function(lang){
 		app.log('localize setup');
 		lang=lang.toLowerCase();
