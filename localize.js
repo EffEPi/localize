@@ -23,7 +23,6 @@ var localize={
 	/* DO NOT CHANGE UNDER THIS */
 	lang: '',
 	start: function(lang){
-		app.log('localize setup');
 		lang=lang.toLowerCase();
 		this.lang=lang;
 		var langs=this.locals;
